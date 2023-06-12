@@ -3,6 +3,7 @@
 #define PIN 6
 #define NUM_LEDS 496
 #define MAX_UINT8 255
+#define CHASE_LEN 3
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, PIN, NEO_GRB + NEO_KHZ800);
 
